@@ -24,7 +24,7 @@ void enqueue(int value)
 {
 	if(rear==size-1)
 	{
-	
+		printf("queue--full");
 	}
 	else{
 		if(front==-1)
